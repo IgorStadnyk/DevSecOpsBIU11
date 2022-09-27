@@ -1,21 +1,21 @@
 # Git Basics (commit, diff, branches)
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
+1.echo "1" >> abc.txt
+2.red
+3.red
+4.green,green
+5.echo "What is the color of file abc.txt in Git status view?" >> abc.txt
+6.blue,blue,differences Changes not staged for commit: modified:   abc.txt (the changes exists only in working tree)
+7.git diff HEAD
+8.because no changes was added to index that are not committed
+9.no branch like this or tag was created so nothing compare to
+10.git add abc.txt
+11.nothing because no more differences between working tree and index
+12.git diff --staged
+13.What is the file's color if you open the repo as a Pycharm project?
+14.No ,because the "git diff main" show all changes from working tree to main that accrued and "git diff --staged" only between index to Head
+15.because 1 change is for adding to index and the other to commit the change to index
+16.git reset --hard
 
 # Resolve conflicts
 
